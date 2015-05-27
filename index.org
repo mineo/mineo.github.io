@@ -4,7 +4,7 @@
 #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)
 #+HTML_CONTAINER: div
 #+HTML_DOCTYPE: html5
-#+HTML_HEAD: <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+#+HTML_HEAD: <link href='//fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
 #+HTML_HEAD_EXTRA:
 #+HTML_LINK_HOME:
