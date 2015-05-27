@@ -1,0 +1,23 @@
+body {
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Vollkorn', serif;
+}
+
+.title {
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-color: #a0a0a0;
+}
+
+li {
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
