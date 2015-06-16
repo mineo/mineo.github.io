@@ -1,18 +1,3 @@
-#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
-#+OPTIONS: html-preamble:t html-scripts:t html-style:t
-#+OPTIONS: html5-fancy:nil tex:t
-#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)
-#+HTML_CONTAINER: div
-#+HTML_DOCTYPE: html5
-#+HTML_HEAD: <link href='//fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+HTML_HEAD_EXTRA:
-#+HTML_LINK_HOME:
-#+HTML_LINK_UP:
-#+HTML_MATHJAX:
-#+INFOJS_OPT:
-#+LATEX_HEADER:
-#+OPTIONS: author:nil toc:nil ^:nil  timestamp:nil num:nil
 #+TITLE: Wieland Hoffmann
 
 This is the +end of the internet+ GitHub page of Wieland Hoffmann.
@@ -67,3 +52,35 @@ of the following projects:
 - [[https://picard.musicbrainz.org/][MusicBrainz Picard]] is an application for tagging and renaming audio
   files.
 - [[https://python-musicbrainzngs.readthedocs.org/en/latest/][python-musicbrainzngs]] is a library for accessing MusicBrainz data in Python.
+
+[[file:quotes.org][Quotes]]
+
+#+BEGIN_SRC emacs-lisp :results silent :exports none
+(setq org-publish-project-alist nil)
+(setq source-dir (file-name-directory (buffer-file-name)))
+(add-to-list 'org-publish-project-alist
+              `("github"
+                :base-directory ,source-dir
+                :publishing-directory source-dir
+                :base-extension "org"
+                :index-filename "index.org"
+                :publishing-function (org-html-publish-to-html)
+                :htmlized-source t
+                :html-doctype "html5"
+                :html-container "div"
+                :html-head "<link href='//fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>"
+                :html-link-use-abs-url nil
+                :html-postamble auto
+                :html-preamble t
+                :html-scripts t
+                :html-style t
+                :html5-fancy nil
+                :html-head-extra "<link rel='stylesheet' type='text/css' href='style.css' /> "
+                :section-numbers nil
+                :with-author nil
+                :with-sub-superscript nil
+                :with-toc nil
+                :with-timestamps nil
+                ))
+(org-publish "github" t)
+#+END_SRC

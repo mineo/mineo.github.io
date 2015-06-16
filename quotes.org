@@ -1,0 +1,22 @@
+#+TITLE: Quotes
+#+OPTIONS: toc:t
+
+* Warbreaker
+
+#+BEGIN_QUOTE
+“Mocking a woman is like drinking too much wine. It may be fun for a
+short time, but the hangover is hell.”\\
+-- [[http://brandonsanderson.com/warbreaker-chapter-seven/][Chapter 7]]
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+“You're a very difficult person to manipulate, you know.”\\
+“Nonsense,” he said. "You just have to promise me that I won't have to do a thing, and then I'll do anything you want."\\
+“Anything?”\\
+“Anything that doesn't require doing anything.”\\
+“That's nothing, then.”\\
+“Is it?”\\
+“Yes.”\\
+“Well, that's something.”\\
+-- [[http://brandonsanderson.com/warbreaker-chapter-sixteen/][Chapter 16]]
+#+END_QUOTE
