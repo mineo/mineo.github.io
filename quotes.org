@@ -2,21 +2,64 @@
 #+OPTIONS: toc:t
 
 * Warbreaker
+  :PROPERTIES:
+  :CUSTOM_ID: warbreaker
+  :END:
 
 #+BEGIN_QUOTE
 “Mocking a woman is like drinking too much wine. It may be fun for a
-short time, but the hangover is hell.”\\
+short time, but the hangover is hell.”
+#+HTML: <cite>
 -- [[http://brandonsanderson.com/warbreaker-chapter-seven/][Chapter 7]]
+#+HTML: </cite>
 #+END_QUOTE
 
 #+BEGIN_QUOTE
 “You're a very difficult person to manipulate, you know.”\\
-“Nonsense,” he said. "You just have to promise me that I won't have to do a thing, and then I'll do anything you want."\\
+“Nonsense,” he said. "You just have to promise me that I won't have to
+do a thing, and then I'll do anything you want."\\
 “Anything?”\\
 “Anything that doesn't require doing anything.”\\
 “That's nothing, then.”\\
 “Is it?”\\
 “Yes.”\\
 “Well, that's something.”\\
+#+HTML: <cite>
 -- [[http://brandonsanderson.com/warbreaker-chapter-sixteen/][Chapter 16]]
+#+HTML: </cite>
+#+END_QUOTE
+
+* Wilde Reise durch die Nacht
+  :PROPERTIES:
+  :CUSTOM_ID: wrddn
+  :END:
+
+#+BEGIN_QUOTE
+“Wir müssen in die Küstenregion, da treiben sich die meisten
+Jungfrauen rum. Sie sind da, weil dort auch die meisten Drachen
+verkehren.”\\
+“Sollten sie sich dann nicht lieber im inneren Teil der Insel aufhalten?”\\
+“Versteh einer die Weiber!” gab das Mischwesen zurück.
+#+HTML: <cite>
+-- Page 29
+#+HTML: </cite>
+#+END_QUOTE
+
+* The Wheel of Time
+  :PROPERTIES:
+  :CUSTOM_ID: wheel_of_time
+  :END:
+
+** The Eye of the World
+   :PROPERTIES:
+   :CUSTOM_ID: eye_of_the_world
+   :END:
+#+BEGIN_QUOTE
+With all his heart and desperation he silently shouted at Bela to run
+like the wind, silently tried to will strength into her. /Run!/ His
+skin prickled, and his bones felt as if they were freezing, ready to
+split open. /The Light help her, run!/ And Bela ran.
+#+HTML: <cite>
+-- Page 149
+#+HTML: </cite>
 #+END_QUOTE
