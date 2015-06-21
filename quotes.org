@@ -63,3 +63,25 @@ split open. /The Light help her, run!/ And Bela ran.
 -- Page 149
 #+HTML: </cite>
 #+END_QUOTE
+
+#+BEGIN_QUOTE
+“Ila was giving me advice an being a woman.” Egwene replied
+absently. He began laughing and she gave him a hooded, dangerous look
+that he failed to see.\\
+“Advice! Nobody tells us how to be men. We just are.”\\
+“That,” Egwene said, “is probably why you make such a bad job of it.”
+#+HTML: <cite>
+-- Page 413
+#+HTML: </cite>
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Perrin looked at Egwene again and blinked away hot tears. He touched
+his axe and wondered if he had the courage. In the last minutes, when
+the ravens descended on them, when all hope was gone, would he have
+the courage to spare her the death the fox had dies? /Light make me
+strong!/
+#+HTML: <cite>
+-- Page 432
+#+HTML: </cite>
+#+END_QUOTE
