@@ -85,3 +85,16 @@ strong!/
 -- Page 432
 #+HTML: </cite>
 #+END_QUOTE
+
+#+BEGIN_QUOTE
+“You’ll use it.”\\
+Perrin raised the axe to throw it in the pool, but Elyas caught his
+wrist.\\
+“You’ll use it, boy, and as long as you hate using it, you will use it
+more wisely than most men would. Wait. If ever you don’t hate it any
+longer, then will be the time to throw it as far as you can and run
+the other way.”
+#+HTML: <cite>
+-- Page 440
+#+HTML: </cite>
+#+END_QUOTE
