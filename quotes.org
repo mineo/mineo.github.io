@@ -45,6 +45,15 @@ verkehren.”\\
 #+HTML: </cite>
 #+END_QUOTE
 
+#+BEGIN_QUOTE
+Der Greif sank herab und legte Gustave eine Schwinge auf die
+Schulter. “Ich hab dir ja gesagt, es gibt Schlimmeres im Leben als
+Drachen”, sagte er. “Zum Beispiel die Liebe.”
+#+HTML: <cite>
+-- Page 50
+#+HTML: </cite>
+#+END_QUOTE
+
 * The Wheel of Time
   :PROPERTIES:
   :CUSTOM_ID: wheel_of_time
