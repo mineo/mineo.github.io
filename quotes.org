@@ -107,3 +107,26 @@ the other way.”
 -- Page 440
 #+HTML: </cite>
 #+END_QUOTE
+
+#+BEGIN_QUOTE
+“Galad does not lie.”\\
+“Sometimes I wish he would,” Gawyn said softly, for Rand’s ear. “Just
+once it might make living with him easier.”
+#+HTML: <cite>
+-- Page 602
+#+HTML: </cite>
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+He learned weapons as other children learn toys, and the Blight as
+other children their mother’s garden. The oath sworn over his cradle
+is graven in his mind. There is nothing left to defend, but he can
+avenge. He denies his titles, yet in the Borderlands he is called the
+Uncrowned, and if ever he raised the Golden Crane of Malkier, an army
+would come to follow. But he will not lead men to their deaths. In the
+Blight he courts death as a suitor courts a maiden, but he will not
+lead others to it.
+#+HTML: <cite>
+-- Page 711
+#+HTML: </cite>
+#+END_QUOTE
