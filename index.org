@@ -16,7 +16,7 @@ more complete list, check out [[https://www.openhub.net/accounts/mineo][my Open 
 
 - [[https://lala.readthedocs.org/en/latest/][lala]] is an IRC bot written in the Python programming language.
 - [[https://sagbescheid.readthedocs.org/en/latest/][sagbescheid]] is a notification daemon for state changes in [[http://freedesktop.org/wiki/Software/systemd/][systemd]] units.
-- [[https://github.com/mineo/dhis][dhist]] can be used to create a list of information (including cover
+- [[https://github.com/mineo/dhis][dhis]] can be used to create a list of information (including cover
   art) for a users most listened to albums, as tracked by [[https://last.fm][last.fm]].
 - [[https://github.com/mineo/hgidr][hgidr]] is an application that helps me keep track of TV shows I've
   seen by saving information about the last seen episode of each show.
@@ -52,8 +52,6 @@ of the following projects:
 - [[https://picard.musicbrainz.org/][MusicBrainz Picard]] is an application for tagging and renaming audio
   files.
 - [[https://python-musicbrainzngs.readthedocs.org/en/latest/][python-musicbrainzngs]] is a library for accessing MusicBrainz data in Python.
-
-[[file:quotes.org][Quotes]]
 
 #+BEGIN_SRC emacs-lisp :results silent :exports none
 (setq org-publish-project-alist nil)
