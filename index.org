@@ -15,13 +15,13 @@ more complete list, check out [[https://www.openhub.net/accounts/mineo][my Open 
    :END:
 
 - [[https://lala.readthedocs.org/en/latest/][lala]] is an IRC bot written in the Python programming language.
-- [[https://sagbescheid.readthedocs.org/en/latest/][sagbescheid]] is a notification daemon for state changes in [[http://freedesktop.org/wiki/Software/systemd/][systemd]] units.
 - [[https://github.com/mineo/dhis][dhis]] can be used to create a list of information (including cover
   art) for a users most listened to albums, as tracked by [[https://last.fm][last.fm]].
 - [[https://github.com/mineo/hgidr][hgidr]] is an application that helps me keep track of TV shows I've
   seen by saving information about the last seen episode of each show.
 - [[https://pypi.python.org/pypi/mplayer-autocmd][mplayer-autocmd]] provides per-file options and keybindings for the [[http://mpv.io/][mpv]]
   media player.
+- [[https://sagbescheid.readthedocs.org/en/latest/][sagbescheid]] is a notification daemon for state changes in [[http://freedesktop.org/wiki/Software/systemd/][systemd]] units.
 
 ** Libraries
    :PROPERTIES:
