@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Wieland Hoffmann</title>
-<!-- 2015-07-04 Sa 12:06 -->
+<!-- 2015-11-27 Fr 10:49 -->
 <meta  charset="utf-8">
+<meta  name="viewport" content="width=device-width, initial-scale=1">
+<title>Wieland Hoffmann</title>
 <meta  name="generator" content="Org-mode">
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
   .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -55,15 +62,14 @@
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
+  .footpara { display: inline; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -149,49 +155,43 @@ for a short list of software I've written or contributed to.  For a
 more complete list, check out <a href="https://www.openhub.net/accounts/mineo">my Open Hub profile</a>.
 </p>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">Projects</h2>
-<div class="outline-text-2" id="text-1">
-</div><div id="outline-container-applications" class="outline-3">
-<h3 id="applications"><a id="sec-1-1" name="sec-1-1"></a>Applications</h3>
+<div id="outline-container-orgheadline4" class="outline-2">
+<h2 id="orgheadline4">Projects</h2>
+<div class="outline-text-2" id="text-orgheadline4">
+</div><div id="outline-container-orgheadline1" class="outline-3">
+<h3 id="applications"><a id="orgheadline1"></a>Applications</h3>
 <div class="outline-text-3" id="text-applications">
-
 <ul class="org-ul">
-<li><a href="https://lala.readthedocs.org/en/latest/">lala</a> is an IRC bot written in the Python programming language.
-</li>
-<li><a href="https://sagbescheid.readthedocs.org/en/latest/">sagbescheid</a> is a notification daemon for state changes in <a href="http://freedesktop.org/wiki/Software/systemd/">systemd</a> units.
-</li>
 <li><a href="https://github.com/mineo/dhis">dhis</a> can be used to create a list of information (including cover
-art) for a users most listened to albums, as tracked by <a href="https://last.fm">last.fm</a>.
-</li>
+art) for a users most listened to albums, as tracked by <a href="https://last.fm/">last.fm</a>.</li>
 <li><a href="https://github.com/mineo/hgidr">hgidr</a> is an application that helps me keep track of TV shows I've
-seen by saving information about the last seen episode of each show.
-</li>
+seen by saving information about the last seen episode of each show.</li>
+<li><a href="https://lala.readthedocs.org/en/latest/">lala</a> is an IRC bot written in the Python programming language.</li>
 <li><a href="https://pypi.python.org/pypi/mplayer-autocmd">mplayer-autocmd</a> provides per-file options and keybindings for the <a href="http://mpv.io/">mpv</a>
-  media player.
-</li>
+  media player.</li>
+<li><a href="https://sagbescheid.readthedocs.org/en/latest/">sagbescheid</a> is a notification daemon for state changes in <a href="http://freedesktop.org/wiki/Software/systemd/">systemd</a> units.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-libraries" class="outline-3">
-<h3 id="libraries"><a id="sec-1-2" name="sec-1-2"></a>Libraries</h3>
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="libraries"><a id="orgheadline2"></a>Libraries</h3>
 <div class="outline-text-3" id="text-libraries">
 <ul class="org-ul">
 <li><a href="https://pypi.python.org/pypi/enumerate_skip/">enumerate_skip</a> is a library that extends Pythons <a href="https://docs.python.org/2/library/functions.html#enumerate">enumerate</a>
 function with methods to adjust the count values returned while
-iterating over it.
-</li>
-<li><a href="https://github.com/mineo/yatemplate">yatemplate</a> is an Emacs library that uses <a href="https://capitaomorte.github.io/yasnippet/">YASnippet</a> to provide file templates.
-</li>
+iterating over it.</li>
+<li><a href="https://github.com/mineo/ilmwetter">ilmwetter</a> is a <a href="http://scrapy.org/">Scrapy</a> scraper for getting information about the weather in
+Ilmenau.</li>
+<li><a href="https://github.com/mineo/mpd_pydb">mpd_pydb</a> allows accessing an <a href="http://www.musicpd.org/">MPD</a> database via Python.</li>
+<li><a href="https://github.com/mineo/yatemplate">yatemplate</a> is an Emacs library that uses <a href="https://capitaomorte.github.io/yasnippet/">YASnippet</a> to provide file templates.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-musicbrainz" class="outline-3">
-<h3 id="musicbrainz"><a id="sec-1-3" name="sec-1-3"></a>MusicBrainz</h3>
+<div id="outline-container-orgheadline3" class="outline-3">
+<h3 id="musicbrainz"><a id="orgheadline3"></a>MusicBrainz</h3>
 <div class="outline-text-3" id="text-musicbrainz">
-
 <p>
 I'm a regular contributor to the MusicBrainz project, contributing
 both data and code.
@@ -204,27 +204,21 @@ of the following projects:
 
 <ul class="org-ul">
 <li><a href="https://github.com/mineo/gocaa">gocaa</a> is a library written in the <a href="http://golang.org/">Go</a> programming language to
-access data in the <a href="https://coverartarchive.org/">Cover Art Archive</a>.
-</li>
-<li><a href="https://github.com/mineo/mb2wikidatabot">mb2wikidatabot</a> is an application to automatically enter <a href="https://musicbrainz.org">MusicBrainz</a>
-  identifiers into <a href="https://wikidata.org">Wikidata</a>.
-</li>
+access data in the <a href="https://coverartarchive.org/">Cover Art Archive</a>.</li>
+<li><a href="https://github.com/mineo/mb2wikidatabot">mb2wikidatabot</a> is an application to automatically enter <a href="https://musicbrainz.org/">MusicBrainz</a>
+  identifiers into <a href="https://wikidata.org/">Wikidata</a>.</li>
 <li><a href="https://github.com/mineo/mb-places-map">mb-places-map</a> is a map showing all places with coordinates in the
-<a href="https://musicbrainz.org">MusicBrainz</a> database. You can view it <a href="http://mbsandbox.org/~mineo/places/places.html">online</a>.
-</li>
+<a href="https://musicbrainz.org/">MusicBrainz</a> database. You can view it <a href="http://mbsandbox.org/~mineo/places/places.html">online</a>.</li>
 <li><a href="https://picard.musicbrainz.org/">MusicBrainz Picard</a> is an application for tagging and renaming audio
-files.
-</li>
-<li><a href="https://python-musicbrainzngs.readthedocs.org/en/latest/">python-musicbrainzngs</a> is a library for accessing MusicBrainz data in Python.
-</li>
+files.</li>
+<li><a href="https://python-musicbrainzngs.readthedocs.org/en/latest/">python-musicbrainzngs</a> is a library for accessing MusicBrainz data in Python.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2015-07-04 Sa 12:06</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="date">Created: 2015-11-27 Fr 10:49</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
