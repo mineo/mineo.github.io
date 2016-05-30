@@ -14,6 +14,7 @@ more complete list, check out [[https://www.openhub.net/accounts/mineo][my Open 
    :CUSTOM_ID: applications
    :END:
 
+- [[https://pypi.python.org/pypi/abzer][abzer]] is an application to submit data to the [[https://acousticbrainz.org/][AcousticBrainz]] database.
 - [[https://github.com/mineo/dhis][dhis]] can be used to create a list of information (including cover
   art) for a users most listened to albums, as tracked by [[https://last.fm][last.fm]].
 - [[https://github.com/mineo/hgidr][hgidr]] is an application that helps me keep track of TV shows I've
