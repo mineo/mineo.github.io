@@ -1,7 +1,18 @@
 #+TITLE: Quotes
 #+OPTIONS: toc:t
 
-* Warbreaker
+* Bücher
+** Rogues
+*** A Year and A Day In Old Theradane
+#+BEGIN_QUOTE
+“That's one advantage of living in our prosperous thaumatocracy.”
+Amarelle sighed. “Always something interesting exploding nearby.”
+#+HTML: <cite>
+-- Page 278
+#+HTML: </cite>
+#+END_QUOTE
+
+** Warbreaker
   :PROPERTIES:
   :CUSTOM_ID: warbreaker
   :END:
@@ -29,7 +40,7 @@ do a thing, and then I'll do anything you want."\\
 #+HTML: </cite>
 #+END_QUOTE
 
-* Wilde Reise durch die Nacht
+** Wilde Reise durch die Nacht
   :PROPERTIES:
   :CUSTOM_ID: wrddn
   :END:
@@ -54,12 +65,24 @@ Drachen”, sagte er. “Zum Beispiel die Liebe.”
 #+HTML: </cite>
 #+END_QUOTE
 
-* The Wheel of Time
-  :PROPERTIES:
-  :CUSTOM_ID: wheel_of_time
-  :END:
+#+BEGIN_QUOTE
+“Wir sind nicht mehr im Wald”, antwortete Pancho düster. “Das hier ist
+das Reich der Ungeheuer. Ich habe davon gehört. Das Land der ewigen
+Dämmerung. Hier wird es niemals richtig Tag. Es dämmert, die Nacht
+kommt, dann dämmert es wieder, und dann wird es wieder Nacht. Der Tag
+weigert sich, dieses Land zu beleuchten, sagt man. Die Sonne kommt
+hier nur vorbei, um unterzugehen.”
+#+HTML: <cite>
+-- Page 100
+#+HTML: </cite>
+#+END_QUOTE
 
-** The Eye of the World
+** The Wheel of Time
+   :PROPERTIES:
+   :CUSTOM_ID: wheel_of_time
+   :END:
+
+*** The Eye of the World
    :PROPERTIES:
    :CUSTOM_ID: eye_of_the_world
    :END:
@@ -128,5 +151,14 @@ Blight he courts death as a suitor courts a maiden, but he will not
 lead others to it.
 #+HTML: <cite>
 -- Page 711
+#+HTML: </cite>
+#+END_QUOTE
+* Serien
+** Stargate - Kommando SG-1
+#+BEGIN_QUOTE
+Mitchell: Wie meine Großmutter zu sagen pflegte, wenn der erste Wunsch misslingt…
+Carter: …versuch's mit einer stärkeren Nuklearreaktion!
+#+HTML: <cite>
+-- Das Pegasus-Prinzip
 #+HTML: </cite>
 #+END_QUOTE
