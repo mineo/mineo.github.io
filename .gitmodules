@@ -1,0 +1,3 @@
+[submodule "mb-places-map"]
+	path = mb-places-map
+	url = git@github.com:mineo/mb-places-map.git
