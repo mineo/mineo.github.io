@@ -22,6 +22,8 @@ more complete list, check out [[https://www.openhub.net/accounts/mineo][my Open 
 - [[https://lala.readthedocs.org/en/latest/][lala]] is an IRC bot written in the Python programming language.
 - [[https://pypi.python.org/pypi/mplayer-autocmd][mplayer-autocmd]] provides per-file options and keybindings for the [[http://mpv.io/][mpv]]
   media player.
+- [[https://github.com/mineo/pypi2pkgbuild][pypi2pkgbuild]] is an application to semi-automatically create [[https://www.archlinux.org/pacman/PKGBUILD.5.html][PKGBUILD]]s for
+  packages from [[https://pypi.python.org/pypi][PyPI]].
 - [[https://sagbescheid.readthedocs.org/en/latest/][sagbescheid]] is a notification daemon for state changes in [[http://freedesktop.org/wiki/Software/systemd/][systemd]] units.
 
 ** Libraries
@@ -55,6 +57,7 @@ of the following projects:
   [[https://musicbrainz.org][MusicBrainz]] database. You can view it [[http://mbsandbox.org/~mineo/places/places.html][online]].
 - [[https://picard.musicbrainz.org/][MusicBrainz Picard]] is an application for tagging and renaming audio
   files.
+  - I also maintain a few plugins in a separate [[https://github.com/mineo/mbstuff/tree/master/picard/plugins][repository]].
 - [[https://python-musicbrainzngs.readthedocs.org/en/latest/][python-musicbrainzngs]] is a library for accessing MusicBrainz data in Python.
 
 #+BEGIN_SRC emacs-lisp :results silent :exports none
