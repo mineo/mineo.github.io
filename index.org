@@ -53,8 +53,9 @@ of the following projects:
   access data in the [[https://coverartarchive.org/][Cover Art Archive]].
 - [[https://github.com/mineo/mb2wikidatabot][mb2wikidatabot]] is an application to automatically enter [[https://musicbrainz.org][MusicBrainz]]
   identifiers into [[https://wikidata.org][Wikidata]].
-- [[https://github.com/mineo/mb-places-map][mb-places-map]] is a map showing all places with coordinates in the
-  [[https://musicbrainz.org][MusicBrainz]] database. You can view it [[http://mbsandbox.org/~mineo/places/places.html][online]].
+- [[https://github.com/mineo/mb-places-map][mb-places-map]] is a map showing all places with coordinates in the [[https://musicbrainz.org][MusicBrainz]]
+  database. You can view it +[[http://mbsandbox.org/~mineo/places/places.html][online]]+. Until I find a new place to host it, the map
+  with old data can be found [[https://mineo.github.io/mb-places-map/src/places.html#4/50.68/10.92][here]].
 - [[https://picard.musicbrainz.org/][MusicBrainz Picard]] is an application for tagging and renaming audio
   files.
   - I also maintain a few plugins in a separate [[https://github.com/mineo/mbstuff/tree/master/picard/plugins][repository]].
