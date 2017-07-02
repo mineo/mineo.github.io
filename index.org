@@ -82,7 +82,6 @@ of the following projects:
                 :htmlized-source t
                 :html-doctype "html5"
                 :html-container "div"
-                :html-head "<link href='//fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>"
                 :html-link-use-abs-url nil
                 :html-postamble auto
                 :html-preamble t
