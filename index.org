@@ -61,13 +61,21 @@ of the following projects:
   - I also maintain a few plugins in a separate [[https://github.com/mineo/mbstuff/tree/master/picard/plugins][repository]].
 - [[https://python-musicbrainzngs.readthedocs.org/en/latest/][python-musicbrainzngs]] is a library for accessing MusicBrainz data in Python.
 
+** Other
+   :PROPERTIES:
+   :CUSTOM_ID: other
+   :END:
+
+- [[https://github.com/mineo/shellcheck-travis][shellcheck-travis]] is a respository demonstrating the use of [[http://www.shellcheck.net/][shellcheck]] on
+  [[https://travis-ci.org/][Travis CI]].
+
 #+BEGIN_SRC emacs-lisp :results silent :exports none
 (setq org-publish-project-alist nil)
 (setq source-dir (file-name-directory (buffer-file-name)))
 (add-to-list 'org-publish-project-alist
               `("github"
                 :base-directory ,source-dir
-                :publishing-directory source-dir
+                :publishing-directory ,source-dir
                 :base-extension "org"
                 :index-filename "index.org"
                 :publishing-function (org-html-publish-to-html)

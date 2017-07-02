@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<!-- 2015-11-27 Fr 10:48 -->
-<meta  charset="utf-8">
-<meta  name="viewport" content="width=device-width, initial-scale=1">
+<!-- 2017-07-02 So 15:04 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Quotes</title>
-<meta  name="generator" content="Org-mode">
+<meta name="generator" content="Org mode">
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -50,13 +50,97 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
@@ -89,6 +173,7 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
 <link href='//fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
@@ -98,7 +183,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -147,6 +232,13 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
+<li><a href="#org011063f">Bücher</a>
+<ul>
+<li><a href="#org364cccc">Rogues</a>
+<ul>
+<li><a href="#org3694b3f">A Year and A Day In Old Theradane</a></li>
+</ul>
+</li>
 <li><a href="#warbreaker">Warbreaker</a></li>
 <li><a href="#wrddn">Wilde Reise durch die Nacht</a></li>
 <li><a href="#wheel_of_time">The Wheel of Time</a>
@@ -155,12 +247,43 @@ for the JavaScript code in this tag.
 </ul>
 </li>
 </ul>
+</li>
+<li><a href="#org94ea9ae">Serien</a>
+<ul>
+<li><a href="#orgf0fb49b">Stargate - Kommando SG-1</a></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 
-<div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="warbreaker"><a id="orgheadline1"></a>Warbreaker</h2>
-<div class="outline-text-2" id="text-warbreaker">
+<div id="outline-container-org011063f" class="outline-2">
+<h2 id="org011063f">Bücher</h2>
+<div class="outline-text-2" id="text-org011063f">
+</div><div id="outline-container-org364cccc" class="outline-3">
+<h3 id="org364cccc">Rogues</h3>
+<div class="outline-text-3" id="text-org364cccc">
+</div><div id="outline-container-org3694b3f" class="outline-4">
+<h4 id="org3694b3f">A Year and A Day In Old Theradane</h4>
+<div class="outline-text-4" id="text-org3694b3f">
+<blockquote>
+<p>
+“That's one advantage of living in our prosperous thaumatocracy.”
+Amarelle sighed. “Always something interesting exploding nearby.”
+</p>
+<cite>
+<p>
+&#x2013; Page 278
+</p>
+</cite>
+</blockquote>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf4f5d83" class="outline-3">
+<h3 id="warbreaker"><a id="orgf4f5d83"></a>Warbreaker</h3>
+<div class="outline-text-3" id="text-warbreaker">
 <blockquote>
 <p>
 “Mocking a woman is like drinking too much wine. It may be fun for a
@@ -175,15 +298,15 @@ short time, but the hangover is hell.”
 
 <blockquote>
 <p>
-“You're a very difficult person to manipulate, you know.”<br >
+“You're a very difficult person to manipulate, you know.”<br>
 “Nonsense,” he said. "You just have to promise me that I won't have to
-do a thing, and then I'll do anything you want."<br >
-“Anything?”<br >
-“Anything that doesn't require doing anything.”<br >
-“That's nothing, then.”<br >
-“Is it?”<br >
-“Yes.”<br >
-“Well, that's something.”<br >
+do a thing, and then I'll do anything you want."<br>
+“Anything?”<br>
+“Anything that doesn't require doing anything.”<br>
+“That's nothing, then.”<br>
+“Is it?”<br>
+“Yes.”<br>
+“Well, that's something.”<br>
 </p>
 <cite>
 <p>
@@ -194,15 +317,15 @@ do a thing, and then I'll do anything you want."<br >
 </div>
 </div>
 
-<div id="outline-container-orgheadline2" class="outline-2">
-<h2 id="wrddn"><a id="orgheadline2"></a>Wilde Reise durch die Nacht</h2>
-<div class="outline-text-2" id="text-wrddn">
+<div id="outline-container-org4fe1157" class="outline-3">
+<h3 id="wrddn"><a id="org4fe1157"></a>Wilde Reise durch die Nacht</h3>
+<div class="outline-text-3" id="text-wrddn">
 <blockquote>
 <p>
 “Wir müssen in die Küstenregion, da treiben sich die meisten
 Jungfrauen rum. Sie sind da, weil dort auch die meisten Drachen
-verkehren.”<br >
-“Sollten sie sich dann nicht lieber im inneren Teil der Insel aufhalten?”<br >
+verkehren.”<br>
+“Sollten sie sich dann nicht lieber im inneren Teil der Insel aufhalten?”<br>
 “Versteh einer die Weiber!” gab das Mischwesen zurück.
 </p>
 <cite>
@@ -224,17 +347,33 @@ Drachen”, sagte er. “Zum Beispiel die Liebe.”
 </p>
 </cite>
 </blockquote>
+
+<blockquote>
+<p>
+“Wir sind nicht mehr im Wald”, antwortete Pancho düster. “Das hier ist
+das Reich der Ungeheuer. Ich habe davon gehört. Das Land der ewigen
+Dämmerung. Hier wird es niemals richtig Tag. Es dämmert, die Nacht
+kommt, dann dämmert es wieder, und dann wird es wieder Nacht. Der Tag
+weigert sich, dieses Land zu beleuchten, sagt man. Die Sonne kommt
+hier nur vorbei, um unterzugehen.”
+</p>
+<cite>
+<p>
+&#x2013; Page 100
+</p>
+</cite>
+</blockquote>
 </div>
 </div>
 
-<div id="outline-container-orgheadline4" class="outline-2">
-<h2 id="wheel_of_time"><a id="orgheadline4"></a>The Wheel of Time</h2>
-<div class="outline-text-2" id="text-wheel_of_time">
+<div id="outline-container-org724c714" class="outline-3">
+<h3 id="wheel_of_time"><a id="org724c714"></a>The Wheel of Time</h3>
+<div class="outline-text-3" id="text-wheel_of_time">
 </div>
 
-<div id="outline-container-orgheadline3" class="outline-3">
-<h3 id="eye_of_the_world"><a id="orgheadline3"></a>The Eye of the World</h3>
-<div class="outline-text-3" id="text-eye_of_the_world">
+<div id="outline-container-org11fa9d6" class="outline-4">
+<h4 id="eye_of_the_world"><a id="org11fa9d6"></a>The Eye of the World</h4>
+<div class="outline-text-4" id="text-eye_of_the_world">
 <blockquote>
 <p>
 With all his heart and desperation he silently shouted at Bela to run
@@ -253,8 +392,8 @@ split open. <i>The Light help her, run!</i> And Bela ran.
 <p>
 “Ila was giving me advice an being a woman.” Egwene replied
 absently. He began laughing and she gave him a hooded, dangerous look
-that he failed to see.<br >
-“Advice! Nobody tells us how to be men. We just are.”<br >
+that he failed to see.<br>
+“Advice! Nobody tells us how to be men. We just are.”<br>
 “That,” Egwene said, “is probably why you make such a bad job of it.”
 </p>
 <cite>
@@ -281,9 +420,9 @@ strong!</i>
 
 <blockquote>
 <p>
-“You’ll use it.”<br >
+“You’ll use it.”<br>
 Perrin raised the axe to throw it in the pool, but Elyas caught his
-wrist.<br >
+wrist.<br>
 “You’ll use it, boy, and as long as you hate using it, you will use it
 more wisely than most men would. Wait. If ever you don’t hate it any
 longer, then will be the time to throw it as far as you can and run
@@ -298,7 +437,7 @@ the other way.”
 
 <blockquote>
 <p>
-“Galad does not lie.”<br >
+“Galad does not lie.”<br>
 “Sometimes I wish he would,” Gawyn said softly, for Rand’s ear. “Just
 once it might make living with him easier.”
 </p>
@@ -330,8 +469,29 @@ lead others to it.
 </div>
 </div>
 </div>
+<div id="outline-container-org94ea9ae" class="outline-2">
+<h2 id="org94ea9ae">Serien</h2>
+<div class="outline-text-2" id="text-org94ea9ae">
+</div><div id="outline-container-orgf0fb49b" class="outline-3">
+<h3 id="orgf0fb49b">Stargate - Kommando SG-1</h3>
+<div class="outline-text-3" id="text-orgf0fb49b">
+<blockquote>
+<p>
+Mitchell: Wie meine Großmutter zu sagen pflegte, wenn der erste Wunsch misslingt…
+Carter: …versuch's mit einer stärkeren Nuklearreaktion!
+</p>
+<cite>
+<p>
+&#x2013; Das Pegasus-Prinzip
+</p>
+</cite>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
 <div id="postamble" class="status">
-<p class="date">Created: 2015-11-27 Fr 10:48</p>
+<p class="date">Created: 2017-07-02 So 15:04</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
