@@ -25,6 +25,7 @@ more complete list, check out [[https://www.openhub.net/accounts/mineo][my Open 
 - [[https://github.com/mineo/pypi2pkgbuild][pypi2pkgbuild]] is an application to semi-automatically create [[https://www.archlinux.org/pacman/PKGBUILD.5.html][PKGBUILD]]s for
   packages from [[https://pypi.python.org/pypi][PyPI]].
 - [[https://sagbescheid.readthedocs.org/en/latest/][sagbescheid]] is a notification daemon for state changes in [[http://freedesktop.org/wiki/Software/systemd/][systemd]] units.
+- [[https://github.com/mineo/tox2travis][tox2travis]] creates a [[https://travis-ci.org/][Travis CI]] configuration from a [[https://tox.testrun.org/][tox]] configuration.
 
 ** Libraries
    :PROPERTIES:
