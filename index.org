@@ -31,7 +31,7 @@ more complete list, check out [[https://www.openhub.net/accounts/mineo][my Open 
    :PROPERTIES:
    :CUSTOM_ID: libraries
    :END:
-- [[https://pypi.python.org/pypi/enumerate_skip/][enumerate_skip]] is a library that extends Pythons [[https://docs.python.org/2/library/functions.html#enumerate][enumerate]]
+- [[https://pypi.python.org/pypi/enumerate_skip/][enumerate_skip]] is a library that extends Pythons [[https://docs.python.org/3/library/functions.html#enumerate][enumerate]]
   function with methods to adjust the count values returned while
   iterating over it.
 - [[https://github.com/mineo/ilmwetter][ilmwetter]] is a [[http://scrapy.org/][Scrapy]] scraper for getting information about the weather in
