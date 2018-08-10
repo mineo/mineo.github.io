@@ -8,7 +8,7 @@ Other than that, there's not much to see here at the moment, except
 for a short list of software I've written or contributed to.  For a
 more complete list, check out [[https://www.openhub.net/accounts/mineo][my Open Hub profile]].
 
-If you enjoy hiking and live near Stuttgart, Germany, have a look at [[https://wandernumstuttgart.wordpress.com/][Wandern um
+If you enjoy hiking and live near Stuttgart, Germany, have a look at [[https://www.wandernumstuttgart.de/][Wandern um
 Stuttgart]].
 
 * Projects
