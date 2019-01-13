@@ -71,7 +71,8 @@ of the following projects:
    :END:
 
 - [[https://github.com/mineo/shellcheck-travis][shellcheck-travis]] is a respository demonstrating the use of [[http://www.shellcheck.net/][shellcheck]] on
-  [[https://travis-ci.org/][Travis CI]].
+  [[https://travis-ci.org/][Travis CI]]. This is not necessary anymore, since Travis builds now have access
+  to shellcheck by default.
 
 #+BEGIN_SRC emacs-lisp :results silent :exports none
 (setq org-publish-project-alist nil)
